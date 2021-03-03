@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskAndTime</string>
+    <string name="label_init">00</string>
+    <string name="label_separator">:</string>
+    <string name="button_time">計測する</string>
+    <string name="button_back">一覧へ戻る</string>
+    <string name="label_total">TOTAL　</string>
+    <string name="label_task">task </string>
+    <string name="message_start">計測中…</string>
+    <string name="message_stop">計測を停止しました</string>
+    <string name="message_reset">計測がリセットされました</string>
+    <string name="message_continue">計測は継続しています…</string>
+    <string name="message_limit">これ以上計測できません</string>
+    <string name="message_end">終了します</string>
+    <string name="alert_abandon_ask">計測内容を破棄しますか？</string>
+    <string name="alert_abandon_yes">はい</string>
+    <string name="alert_abandon_no">いいえ</string>
+    <string name="timeDesc">button to time</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_reset">Reset</string>
+</resources>

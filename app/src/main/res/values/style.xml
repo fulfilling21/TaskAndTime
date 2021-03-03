@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="style_button_time">
+		<item name="android:background">@drawable/button_time_state</item>
+	</style>
+	<style name="style_button_start">
+		<item name="android:background">@drawable/button_start_state</item>
+	</style>
+	<style name="style_button_stop">
+		<item name="android:background">@drawable/button_stop_state</item>
+	</style>
+	<style name="style_button_reset">
+		<item name="android:background">@drawable/button_reset_state</item>
+	</style>
+	<style name="style_button_back">
+		<item name="android:background">@drawable/button_back_state</item>
+	</style>
+</resources>

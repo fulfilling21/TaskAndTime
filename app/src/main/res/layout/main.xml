@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_layout"
+    >
+
+	<!-- 合計 -->
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:paddingLeft="10dp" >
+	    <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_total"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	    <TextView
+			android:id="@+id/label_hour_sum"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_init"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	    <TextView
+	    	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_separator"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	    <TextView
+			android:id="@+id/label_minute_sum"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_init"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	    <TextView
+	    	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_separator"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	    <TextView
+			android:id="@+id/label_second_sum"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_init"
+			android:textSize="20sp"
+			android:textColor="#404040"
+		/>
+	</LinearLayout>
+		
+	<!-- line -->
+	<TextView
+		android:layout_height="1dp"
+		android:layout_width="fill_parent"
+		android:background="@drawable/line_timelist"
+	/>
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/main_scroll"
+    	>
+	</ScrollView>
+	
+</LinearLayout>
